@@ -1,0 +1,10 @@
+@import './contants.scss';
+.container{
+    overflow-x: clip;
+    position: relative;
+    color: $primary;
+}
+*::selection{
+    color: yellow;
+    background-color: black;
+}
